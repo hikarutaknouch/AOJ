@@ -1,0 +1,12 @@
+using System;
+
+namespace ITP1_1_A
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine("Hello World");
+        }
+    }
+}
