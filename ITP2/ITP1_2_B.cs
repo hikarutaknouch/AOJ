@@ -11,7 +11,7 @@ namespace ITP1_2_B
             int b = int.Parse(x[1]);
             int c = int.Parse(x[2]);
 
-            if (a < b && b< c)
+            if (a < b && b < c)
             {
                 Console.WriteLine("Yes");
             }
