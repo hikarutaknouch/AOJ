@@ -12,17 +12,13 @@ class ITP1_7_B
       if (n == 0 && x == 0) break;
 
       int count = 0;
-      for (int i = 1; i <= x / 3; i ++)
+      for (int i = 1; i <= n; i ++)
       {
-        x -= i;
-        for (int j = 1; j <= x / 3; j ++)
+        for (int j = 1; j <= n; j ++)
         {
-          x -= j;
-          for (int k = 1; k <= x; k ++)
+          for (int k = 1; k <= n; k ++)
           {
-            x -= k;
-            if (x == 0 && (i < j && j < k)) count ++;
-            else continue;
+            if (i + j + k == x && i < j && j < k) count ++;
           }
         }
       }
