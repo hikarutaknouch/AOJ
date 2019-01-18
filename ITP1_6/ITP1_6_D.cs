@@ -13,7 +13,7 @@ class ITP1_6_D
     {
       string[] elementsA = Console.ReadLine().Split(' ');
       for (int j = 0; j < m; j ++)
-      {  
+      {
         A[i, j] = int.Parse(elementsA[j]);
       }
     }
