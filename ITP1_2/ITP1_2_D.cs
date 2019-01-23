@@ -15,7 +15,7 @@ namespace ITP1_2_D
             int y = int.Parse(i[3]);
             int r = int.Parse(i[4]);
 
-            if (x - r < 0 | y - r < 0 | x + r > W | y + r > H)
+            if (x< 0 | y < 0 | x + r > W | y + r > H)
             {
                 Console.WriteLine("No");
             }
