@@ -8,13 +8,10 @@ class Program
         int a = int.Parse(i[0]);
         int b = int.Parse(i[1]);
 
-        decimal x = decimal.Parse(i[0]);
-        decimal y = decimal.Parse(i[1]);
-
         int d = a / b;
         int r = a % b;
-        decimal f = x / y;
+        double f = (double)a / b;
 
-        Console.WriteLine("{0} {1} {2}", d, r, f);
+        Console.WriteLine("{0} {1} {2}", d, r, f.ToString("f5"));
     }
 }

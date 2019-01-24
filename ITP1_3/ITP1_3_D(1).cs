@@ -12,14 +12,7 @@ class Program
 
         for (int x = a; x <= b; x ++)
         {
-            if (c % x == 0)
-            {
-                count = count + 1;
-            }
-            else
-            {
-                continue;
-            }
+          if (c % x == 0) count ++;
         }
         Console.WriteLine(count);
     }
