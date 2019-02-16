@@ -7,7 +7,7 @@ namespace ITP1_4_D
     {
         static void Main()
         {
-            Console.ReadLine();
+            int n = int.Parse(Console.ReadLine());
             long[] x = Console.ReadLine().Split(' ', '\r', '\n').Select(long.Parse).ToArray();
             Console.WriteLine("{0} {1} {2}", x.Min(), x.Max(), x.Sum());
         }
