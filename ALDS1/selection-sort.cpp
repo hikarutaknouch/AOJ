@@ -21,3 +21,4 @@ int main() {
     cout << count << endl;
     return 0;
 }
+//AOJの解説→https://onlinejudge.u-aizu.ac.jp/resources/commentaries/ALDS1_2_B/ja/post?general=Algorithm

@@ -23,3 +23,4 @@ int main() {
         }
     }
 }
+//AOJの解説→https://onlinejudge.u-aizu.ac.jp/resources/commentaries/ALDS1_1_A/ja/post?general=Algorithm
