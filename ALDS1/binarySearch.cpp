@@ -27,8 +27,6 @@ bool binarySearch(int key, vector<int> v, int n) {
 }
 
 int main() {
-    ifstream in("input.txt");
-    cin.rdbuf(in.rdbuf());
     int n; cin >> n;
     vector<int> s(n);
     REP(i,n) cin >> s[i];
