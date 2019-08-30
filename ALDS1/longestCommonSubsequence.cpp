@@ -25,8 +25,6 @@ int lcs(string s, string t) {
 }
 
 int main() {
-    ifstream in("input.txt");
-    cin.rdbuf(in.rdbuf());
     int q; cin >> q;
     REP(i,q) {
         string S,T; cin >> S >> T;
