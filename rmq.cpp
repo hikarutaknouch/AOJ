@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 #define REP(i, n) for(int i = 0; i < n; ++i)
 using namespace std;
-typedef long long ll;
-const int INF = pow(2,31)-1;
 
 template<typename Monoid>
 struct SegmentTree {
@@ -48,7 +46,7 @@ int main() {
     cin.tie(0);
     ios::sync_with_stdio(false);
     int n,q; cin >> n >> q;
-    SegmentTree<int> seg(n, [](int a,int b){return min(a,b);}, INF);
+    SegmentTree<int> seg(n, [](int a,int b){return min(a,b);}, INT_MAX);
     int ans;
     REP(i,q) {
         int c,x,y; cin >> c >> x >> y;
